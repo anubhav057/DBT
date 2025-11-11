@@ -44,7 +44,7 @@ models:
     # Applies to all files under models/example/
 
     staging:
-      +materialized: view
+      +materialized: table
 
     marts:
       +materialized: table
